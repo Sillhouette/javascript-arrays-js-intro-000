@@ -7,14 +7,21 @@ var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
   function destructivelyAddElementToBeginningOfArray(array, element){
     array.unshift(element);
+<<<<<<< HEAD
     return array;
   }
+=======
+    console.log(array);
+  }
+
+>>>>>>> 1d7ca0807a394ea1eecc5cffa5bc8314b9b0b580
   function addElementToEndOfArray(array, element){
     return [...array, element];
   }
 
   function destructivelyAddElementToEndOfArray(array, element){
     array.push(element);
+<<<<<<< HEAD
     return array;
   }
 
@@ -38,4 +45,7 @@ var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
   function removeElementFromEndOfArray(array){
     return array.slice(0, array.length - 1);
+=======
+    console.log(array);
+>>>>>>> 1d7ca0807a394ea1eecc5cffa5bc8314b9b0b580
   }
